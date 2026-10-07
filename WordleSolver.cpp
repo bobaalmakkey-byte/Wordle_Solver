@@ -15,8 +15,6 @@ public:
     WordleSolver() {
         board.resize(5, "_");
     }
-
-    // دالة الإدخال يجب أن تكون في الأعلى لأن باقي الدوال تعتمد عليها
     std::string getInput(const std::string& prompt) {
         std::cout << prompt << " ";
         std::string input;
